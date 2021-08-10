@@ -2,7 +2,12 @@
 	margin: 0;
 	padding: 0;
 	font-family: "cursive";
+
 }
+@font-face {
+	font-family: 'creepy_night_regular';
+	src: url(creepy_night_regular.ttf);
+  }
 body{
 	min-height: 100vh;
 	display: grid;
@@ -65,7 +70,7 @@ body{
 	letter-spacing: 6px;
 	background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
 	animation: text 3s 1000;
-	font-family: creepy night;
+	font-family: creepy_night_regular;
 	border-radius: 2rem;
 	display: felx;
 
@@ -215,7 +220,7 @@ input[type="range"]::-webkit-slider-thumb{
 	display: block;
 	font-size: 58px;
 	text-align: center;
-	font-family: creepy night;
+	font-family: creepy_night_regular;
 
 
 
